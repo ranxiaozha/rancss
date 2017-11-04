@@ -55,3 +55,23 @@
     border: 1px solid darkred;
     opacity: .5;
 }
+.gb{
+    text-decoration:underline;
+    color: blue;
+    cursor: pointer;
+}
+.hp{
+    text-decoration:underline;
+    color: blue;
+    cursor: help;
+}
+#meme{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    border: 1px solid darkslategray;
+    background: hotpink;
+    cursor:wait;
+    padding: 50px;
+    vertical-align: middle;
+}
