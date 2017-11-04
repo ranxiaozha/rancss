@@ -3,14 +3,14 @@
     padding: 0;
 }#all{
     margin: auto;
-    padding: 20px;
+    /*padding: 20px;*/
     border: 2px solid black;
-    width: 1200px;
-    height: 800px;
+    width: 700px;
+    /*width: 1200px;*/
+    /*height: 800px;*/
  }
  header,#left,#right,footer{
      text-align: center;
-     vertical-align: middle;
      border: none;
  }
  header{
@@ -24,21 +24,21 @@
      width: 200px;
      height: 500px;
      background: deepskyblue;
-     position: relative;
-     left: 250px;
+     /*position: relative;*/
+     /*left: 250px;*/
  }
  #right{
      float: left;
      width: 500px;
      height: 500px;
      background: blue;
-     position: relative;
-     left: 250px;
+     /*position: relative;*/
+     /*left: 250px;*/
  }
- /*#fu{*/
+ /*section{*/
      /*margin: auto;*/
-     /*width: 702px;*/
-     /*height: 502px;*/
+     /*width: 700px;*/
+     /*height: 500px;*/
      /*border: none;*/
  /*}*/
  footer{
@@ -48,3 +48,19 @@
      background: green;
      clear: both;
  }
+ /*header:target{*/
+     /*font-size: 20pt;*/
+     /*border: 1px solid gray;*/
+ /*}*/
+footer:hover{
+     color: aliceblue;
+ }
+header:hover{
+    color: aliceblue;
+}
+#left:hover{
+    color:wheat;
+}
+#right:hover{
+    color:wheat;
+}
