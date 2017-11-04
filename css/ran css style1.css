@@ -3,25 +3,30 @@
     padding: 0;
 }
 #container{
-    border: 1px solid #ddd;
+    border: 3px solid black;
     margin: auto;
+    height: 800px;
+    width: 1200px;
 }
 #box1{
     background-color: red;
-    float: left;
+    width: 400px;
+    height: 200px;
 }
 #box2{
     background-color: blue;
-    float: left;
+    width: 400px;
+    height: 200px;
 }
 #box3{
     background-color: greenyellow;
-    float: left;
+    width: 400px;
+    height: 200px;
 }
-#container{
-    /*display: none;*/
-    visibility: hidden;
-}
+/*#container{*/
+    /*/!*display: none;*!/*/
+    /*visibility: hidden;*/
+/*}*/
 #container2{
     text-align: center;
     margin: auto;
@@ -74,4 +79,8 @@
     cursor:wait;
     padding: 50px;
     vertical-align: middle;
+}
+#container3,#meme{
+    display: none;
+    /*visibility: hidden;*/
 }
